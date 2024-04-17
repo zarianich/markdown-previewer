@@ -1,0 +1,27 @@
+#editor {
+  min-height: 300px;
+  padding: 15px;
+  border: none;
+}
+
+#preview blockquote {
+  border-left: 3px solid;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+#preview pre {
+  display: block;
+  overflow: auto;
+}
+#preview table {
+  border-collapse: collapse;
+}
+#preview td, #preview th {
+  border: 2px solid;
+  padding: 5px 10px;
+}
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+}
